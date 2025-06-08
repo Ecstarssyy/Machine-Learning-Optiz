@@ -15,7 +15,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # ========== LOAD DAN EKSPLORASI DATA ==========
-df = pd.read_csv('Fashion_Retail_Sales.csv')
+df = pd.read_csv('../data/Fashion_Retail_Sales.csv')
 df.head()
 df.info()
 df.describe(include="all")
